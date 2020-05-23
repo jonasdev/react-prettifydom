@@ -1,0 +1,30 @@
+{
+  "name": "react-prettifydom",
+  "version": "1.0.0",
+  "description": "Replace all inline styling with custom classes",
+  "main": "index.js",
+  "homepage": "https://github.com/jonaskkristensen/react-prettifydom",
+  "license": "MIT",
+  "author": "Jonas K",
+  "keywords": ["react"],
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
