@@ -1,8 +1,7 @@
 # React PrettifyDOM
 
-Inline styling is not pretty. But it is fast. Faster than making classnames in external CSS files and setting the class attribute, for small pieces of CSS declarations. It is also a great way to overrule heavy CSS selectors. But it makes the DOM looks messy. 
-
-PrettifyDOM takes all the inline styling, creates a unique class for each, removes style attributes and adds one embedded stylesheet with the CSS.
+Inline styling is not pretty and can easily make the DOM look messy.
+But no worries! PrettifyDOM will remove every static style attributes, replace it with a custom class and remove the styling to an embedded stylesheet.
 
 ## Installation
 
@@ -32,7 +31,7 @@ JSX:
   </h1>
 </div>
 ```
-With `<PrettifyDOM customClassName="myapp"/> //pdom as default` you can see in DevTools the elements will now looks something like this
+With `<PrettifyDOM customClassName="myapp"/>` you can see in DevTools the elements will now looks something like this
 
 ````
 // With <PrettifyDOM />
