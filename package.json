@@ -6,10 +6,10 @@
   "homepage": "https://github.com/jonaskkristensen/react-prettifydom",
   "license": "MIT",
   "author": "Jonas K",
-  "keywords": ["react"],
-  "dependencies": {
-    "react": ">=16.8.0",
-  },
+  "keywords": [
+    "react"
+  ],
+  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-file index.js"
@@ -19,12 +19,12 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "prop-types": "^15.6.0",
-    "react": ">=16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^17.0.1",
+    "react-dom": "^16.14.0"
   }
 }
